@@ -1,0 +1,17 @@
+{
+  "destinationServers": ["10.10.1.133:7860", "10.10.1.134:7860", "10.10.1.135:7860", "10.10.1.136:7860"],
+  "port": 1235,
+  "maximumRequestsPerServer": 1,
+  "randomizeDestinationServer": true,
+  "useParseDb": false,
+  "useHttps": false,
+  "parseDbUrl": "parseurl",
+  "parseDbAppId": "test",
+  "parseDbRestApiKey": "undefined",
+  "parseDbValueField":"progress_question",
+  "parseDbDbField":"tulpa_id",
+  "parseDbRequestField":"tulpaId",
+  "requestDebounceTime": 1000,
+  "usePriorityField": true,
+  "priorityField": "assetId"
+}
